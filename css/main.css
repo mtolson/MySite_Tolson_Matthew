@@ -1,3 +1,53 @@
-header h1{
-color: #f000ff;
+/*-----Entire Page CSS info--------*/
+body{
+	width: 900px;
+	margin: 0 auto;
+	background: #666;
+}
+h1, h2, h3, h4, h5{
+	font-family: "Carrois Gothic SC", "sans-serif";
+}
+/*-----Header CSS--------*/
+
+#dgmc_header{
+	background: white;
+}
+#dgmc_header h1{
+text-indent: -99000px;
+}
+
+#dgmc_header a{
+	display: block;
+
+}
+#dgmc_main_nav ul{
+	width: 900px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+#dgmc_main_nav li{
+	width: 225px;
+	float: left;
+	padding 5px;
+}
+
+#dgmc_main_nav a{
+	text-decoration: none;
+	background: black;
+	display: block;
+	height: 30px;
+	line-height: 30px;	
+	text-align:center;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#dgmc_main_nav a:hover{
+	color: blue;
+	background: white;
+}
+#home {
+	clear: both;
 }

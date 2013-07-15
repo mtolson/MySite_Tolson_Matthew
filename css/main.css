@@ -6,31 +6,34 @@ body{
 }
 h1, h2, h3, h4, h5{
 	font-family: "Carrois Gothic SC", "sans-serif";
+	margin: 0;
+	padding: 0;
 }
 /*-----Header CSS--------*/
 
 #dgmc_header{
 	background: white;
+	float: left;
 }
 #dgmc_header h1{
-text-indent: -99000px;
+	text-indent: -99000px;
+	float: left;
 }
 
-#dgmc_header a{
-	display: block;
-
+#dgmc_main_nav{
+	float:left;
+	width: 700px;
 }
 #dgmc_main_nav ul{
-	width: 900px;
-	margin: 0 auto;
+	width: 700px;
 	list-style-type: none;
 	padding: 0;
-	overflow: hidden;
+	margin: 59px 0 0 0;
+	float: left;
 }
 #dgmc_main_nav li{
-	width: 225px;
-	float: left;
-	padding 5px;
+	width: 175px;
+	float: left;	
 }
 
 #dgmc_main_nav a{
@@ -41,8 +44,11 @@ text-indent: -99000px;
 	line-height: 30px;	
 	text-align:center;
 	color: white;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+	font-weight: lighter;
 }
 #dgmc_main_nav a:hover{
 	color: blue;
@@ -50,4 +56,10 @@ text-indent: -99000px;
 }
 #home {
 	clear: both;
+}
+.slider{
+	width: 800px;	
+	margin: 0 auto;
+	border: 10px;
+	border-color: purple;
 }

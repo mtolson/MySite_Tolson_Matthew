@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5{
 p{
 	font-family: "Carrois Gothic SC";
 	font-size: 18px;
+	margin: 15px;
 }
 .button {
 	margin: 10px;  
@@ -127,6 +128,9 @@ p{
 	vertical-align: middle;
 }
 
+.main_para p{
+	margin: 0;
+}
 #home strong{
 	float: left;
 	width: 450px;

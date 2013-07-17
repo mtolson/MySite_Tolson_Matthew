@@ -1,8 +1,12 @@
 /*-----Wrapper CSS info--------*/
+body{
+	background: black;
+	margin: 0 auto;
+}
 #wrapper{
 	width: 900px;
 	margin: 0 auto;
-	background: #666;
+	background: silver;
 }
 h1, h2, h3, h4, h5{
 	font-family: 'Shadows Into Light', cursive;
@@ -10,7 +14,7 @@ h1, h2, h3, h4, h5{
 	padding: 0;
 }
 p{
-	font-family: "Carrois Gothic SC";
+	font-family: "Oxygen", sans-serif;
 	font-size: 18px;
 	margin: 15px;
 }
@@ -33,7 +37,7 @@ p{
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
    font-size: 25px;
-   font-family: 'Shadows Into Light', cursive;
+   font-family: "Carrois Gothic SC", cursive;
    text-decoration: none;
    vertical-align: middle;
    }
@@ -98,15 +102,19 @@ p{
 	color: blue;
 	background: white;
 }
-/*--first section--*/
-#home {
-	clear: both;
-}
-#home h1{
+h1{
 	text-shadow: 5px 5px 10px black;
 	text-align: center;
 	font-size: 50px;
-	color: rgb(241, 241, 241)
+	color: rgb(241, 241, 241);
+}
+
+/*--Chrous--*/
+#home{
+	background: #65329C;
+	width: 900px;
+	overflow: hidden;
+	padding-bottom: 20px;
 }
 .slider img{
 	border-radius: 10px;
@@ -118,21 +126,11 @@ p{
 	text-align: center;
 }
 .main_para{
-	display: table;
 	width: 450px;
 	height: 300px;
 	float:left;
 }
-.main_para span{
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.main_para p{
-	margin: 0;
-}
 #home strong{
-	float: left;
 	width: 450px;
 	text-align:center;
 	font-size: 25px;
@@ -140,18 +138,116 @@ p{
 }
 /*--------Season--------*/
 #season{
+	background: #454545;
 	clear: left;
+}
+
+#season h1{
+	padding: 20px 0 0 0;
+}
+
+#season ul{
+	border: 10px solid black;
+	list-style-type: none;
+	width: 710px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+#season li{
+	float: left;
+	margin: 10px;
+}
+
+#season li a{ 
+	border: 5px solid red;
+	display: block;
+	outline: 0;
+}
+.season_footer p{
+	text-align: center;
+	font: 25px "Carrois Gothic SC";
+	margin: 0;
+	padding: 5px 0 10px;
+}
+/*--------MVV--------*/
+
+#mvv{
+	background: #05B02D;
+	overflow: hidden;
+	
+}
+#mvv h2, #join h2{
+	text-align: center;
+	font-size: 25px;
+}
+
+.mission{
+	display: block;
+	width: 300px;
+	float:left;
+}
+
+.values{
+	display: block;
+	width: 300px;
+	float:left;
+}
+
+.vision{
+	display: block;
+	width: 300px;
+	float:left;
 }
 
 
 /*--------Join Us--------*/
 
+#join{
+	clear: both;
+	background: #D99221;
+	overflow: hidden;
+}
+
 aside{
 	-moz-column-count: 3;
 	column-count: 3;
+	overflow: hidden;
+	margin: 0 10px;
+	border-bottom: 1px solid black;
 }
 
+.join_tagline{
+	margin: 10px 15px;
+	width: 300px;
+	float: left;
+}
+#join .join_tagline h2{
+	text-shadow: none;
+}
+
+#contact_form{
+	width: 540px;
+	margin: 10px 15px;
+	float: left;
+}
 /*------Footer-----*/
 #dgmc_footer{
-	background: white;
+	clear: left;
+	background: black;
+	padding: 10px 15px 10px;
+	overflow: hidden;
+}
+#dgmc_footer ul{
+	list-style-type: none;
+	float: left;
+	padding: 0;
+}
+#dgmc_footer li{
+	float: left;
+	width: 225px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
 }

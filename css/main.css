@@ -243,6 +243,7 @@ aside{
 }
 #audition_dates ul{
 	list-style-type: square;
+	font: 18px "Oxygen", sans-serif; 
 }
 #join .join_tagline h2{
 	text-shadow: none;

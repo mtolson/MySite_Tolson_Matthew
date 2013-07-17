@@ -1,8 +1,12 @@
-/*-----Wrapper CSS info--------*/
+
 body{
 	background: black;
 	margin: 0 auto;
+	background-image: url(../images/music_notes.jpg);
+	background-attachment: fixed;
 }
+
+/*-----Wrapper CSS info--------*/
 #wrapper{
 	width: 900px;
 	margin: 0 auto;
@@ -111,7 +115,10 @@ h1{
 
 /*--Chrous--*/
 #home{
-	background: #65329C;
+	/*background: #65329C;*/
+	background-color: #454545;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-x;
 	width: 900px;
 	overflow: hidden;
 	padding-bottom: 20px;
@@ -149,7 +156,7 @@ h1{
 #season ul{
 	border: 10px solid black;
 	list-style-type: none;
-	width: 710px;
+	width: 730px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 5px;
@@ -161,10 +168,14 @@ h1{
 }
 
 #season li a{ 
-	border: 5px solid red;
+	border: 10px solid black;
 	display: block;
 	outline: 0;
 }
+#season li a:hover{
+	border: 10px solid blue;
+}
+
 .season_footer p{
 	text-align: center;
 	font: 25px "Carrois Gothic SC";
@@ -174,7 +185,7 @@ h1{
 /*--------MVV--------*/
 
 #mvv{
-	background: #05B02D;
+	background: rgba(5, 176, 45, .25);
 	overflow: hidden;
 	
 }
@@ -206,7 +217,7 @@ h1{
 
 #join{
 	clear: both;
-	background: #D99221;
+	background: rgba(217, 146, 33, .25);
 	overflow: hidden;
 }
 

@@ -18,8 +18,7 @@ h1, h2, h3, h4, h5{
 	padding: 0;
 }
 p{
-	font-family: "Oxygen", sans-serif;
-	font-size: 18px;
+	font: 18px "Oxygen", sans-serif; 
 	margin: 15px;
 }
 .button {
@@ -115,6 +114,7 @@ h1{
 
 /*--Chrous--*/
 #home{
+	clear: left;
 	/*background: #65329C;*/
 	background-color: #454545;
 	background-image: url(../images/background.jpg);
@@ -192,6 +192,7 @@ h1{
 #mvv h2, #join h2{
 	text-align: center;
 	font-size: 25px;
+	font-weight: normal;
 }
 
 .mission{
@@ -231,15 +232,23 @@ aside{
 
 .join_tagline{
 	margin: 10px 15px;
-	width: 300px;
+	width: 150px;
 	float: left;
+}
+
+#audition_dates{
+	width= 150px;
+	margin: 10px 15px;
+	float: left;
+}
+#audition_dates ul{
+	list-style-type: square;
 }
 #join .join_tagline h2{
 	text-shadow: none;
 }
-
 #contact_form{
-	width: 540px;
+	width: 510px;
 	margin: 10px 15px;
 	float: left;
 }

@@ -1,16 +1,19 @@
 
 body{
 	background: black;
-	margin: 0 auto;
 	background-image: url(../images/music_notes.jpg);
 	background-attachment: fixed;
+	font: 100% Oxygen, sans-serif;
+	max-width: 900px;
+	margin: 0 auto;
+
 }
 
 /*-----Wrapper CSS info--------*/
 #wrapper{
-	width: 900px;
-	margin: 0 auto;
+	width: 100%;
 	background: silver;
+
 }
 h1, h2, h3, h4, h5{
 	font-family: 'Shadows Into Light', cursive;
@@ -18,7 +21,7 @@ h1, h2, h3, h4, h5{
 	padding: 0;
 }
 p{
-	font: 18px "Oxygen", sans-serif; 
+	font: 1.125em "Oxygen", sans-serif; 
 	margin: 15px;
 }
 .button {
@@ -39,7 +42,7 @@ p{
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
-   font-size: 25px;
+   font-size: 1.5625em;
    font-family: "Carrois Gothic SC", cursive;
    text-decoration: none;
    vertical-align: middle;
@@ -98,7 +101,7 @@ p{
 	/*border-top-left-radius: 10px;
 	border-top-right-radius: 10px;*/
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 18px;
+	font-size: 1.125em;
 	font-weight: lighter;
 }
 #dgmc_main_nav a:hover{
@@ -108,7 +111,7 @@ p{
 h1{
 	text-shadow: 5px 5px 10px black;
 	text-align: center;
-	font-size: 50px;
+	font-size: 3.125em;
 	color: rgb(241, 241, 241);
 }
 
@@ -140,7 +143,7 @@ h1{
 #home strong{
 	width: 450px;
 	text-align:center;
-	font-size: 25px;
+	font-size: 1.5625em;
 	height: 50px;
 }
 /*--------Season--------*/
@@ -178,7 +181,7 @@ h1{
 
 .season_footer p{
 	text-align: center;
-	font: 25px "Carrois Gothic SC";
+	font: 1.5625em "Carrois Gothic SC";
 	margin: 0;
 	padding: 5px 0 10px;
 }
@@ -191,7 +194,7 @@ h1{
 }
 #mvv h2, #join h2{
 	text-align: center;
-	font-size: 25px;
+	font-size: 1.5625;
 	font-weight: normal;
 }
 
@@ -237,13 +240,13 @@ aside{
 }
 
 #audition_dates{
-	width= 150px;
+	width: 150px;
 	margin: 10px 15px;
 	float: left;
 }
 #audition_dates ul{
 	list-style-type: square;
-	font: 18px "Oxygen", sans-serif; 
+	font: 1.125em "Oxygen", sans-serif; 
 }
 #join .join_tagline h2{
 	text-shadow: none;
@@ -269,6 +272,6 @@ aside{
 	float: left;
 	width: 225px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 0.9375em;
 	color: white;
 }

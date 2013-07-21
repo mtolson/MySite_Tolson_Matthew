@@ -20,86 +20,45 @@ h1, h2, h3, h4, h5{
 	margin: 0;
 	padding: 0;
 }
-p{
-	font: 1.125em "Oxygen", sans-serif; 
-	margin: 15px;
-}
-.button {
-	margin: 10px;  
-   border-top: 1px solid #96d1f8;
-   background: #65a9d7;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-   background: -o-linear-gradient(top, #3e779d, #65a9d7);
-   padding: 10px 20px;
-   -webkit-border-radius: 15px;
-   -moz-border-radius: 15px;
-   border-radius: 15px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 1.5625em;
-   font-family: "Carrois Gothic SC", cursive;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-   }
-.button:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }
 
 /*-----Header CSS--------*/
 
 #dgmc_header{
 	background: white;
 	float: left;
+	width: 100%
 }
 #dgmc_header h1{
 	text-indent: -99000px;
 	float: left;
-	width: 0px;
+	width: 0;
 }
 #logo{
-	width: 200px;
-	display: block;
 	float: left;
 }
 
 #dgmc_main_nav{
 	float:left;
-	width: 700px;
+	width: 77.77777777%;/*700px*/
 }
 #dgmc_main_nav ul{
-	width: 700px;
 	list-style-type: none;
-	padding: 0;
-	margin: 59px 0 0 0;
 	float: left;
+	padding: 0;
+	width: 100%;
+	margin: 58px 0 0;
 }
 #dgmc_main_nav li{
-	width: 175px;
 	float: left;	
+	width: 25%;
 }
 
 #dgmc_main_nav a{
 	text-decoration: none;
 	background: black;
 	display: block;
-	height: 30px;
-	line-height: 30px;	
 	text-align:center;
 	color: white;
-	/*border-top-left-radius: 10px;
-	border-top-right-radius: 10px;*/
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 1.125em;
 	font-weight: lighter;
@@ -109,7 +68,7 @@ p{
 	background: white;
 }
 h1{
-	text-shadow: 5px 5px 10px black;
+	text-shadow: .1em .1em .2em black;
 	text-align: center;
 	font-size: 3.125em;
 	color: rgb(241, 241, 241);
@@ -122,29 +81,63 @@ h1{
 	background-color: #454545;
 	background-image: url(../images/background.jpg);
 	background-repeat: repeat-x;
-	width: 900px;
+	width: 100%;
 	overflow: hidden;
 	padding-bottom: 20px;
 }
 .slider img{
-	border-radius: 10px;
+	width: 44.44444444%; */400/900*/
+	border-radius: 10%;
 	float:left;
-	margin: 0 15px 0 15px;
+	margin: 0 1.66666666%; /*15/900*/
 }
 
 #home p{
 	text-align: center;
 }
 .main_para{
-	width: 450px;
-	height: 300px;
+	width: 50%; /*450/900*/
 	float:left;
 }
 #home strong{
-	width: 450px;
+	width: 50%; /*450/900*/
 	text-align:center;
 	font-size: 1.5625em;
-	height: 50px;
+}
+.join_button{
+}
+.button {
+	margin: 20px;  
+	border-top: 1px solid #96d1f8;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	padding: 10px 20px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 1.5625em;
+	font-family: "Carrois Gothic SC", cursive;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
 }
 /*--------Season--------*/
 #season{
@@ -152,38 +145,34 @@ h1{
 	clear: left;
 }
 
-#season h1{
-	padding: 20px 0 0 0;
-}
-
 #season ul{
-	border: 10px solid black;
+	border: .625em solid black;
 	list-style-type: none;
-	width: 730px;
+	width: 81.11111111%; /*730/900*/
 	margin: 0 auto;
 	overflow: hidden;
-	padding: 5px;
+	padding: 0.6849315%;
 }
 
 #season li{
 	float: left;
-	margin: 10px;
+	margin: 1.11111111%;
 }
 
 #season li a{ 
-	border: 10px solid black;
+	border: .625em solid black;
 	display: block;
 	outline: 0;
 }
 #season li a:hover{
-	border: 10px solid blue;
+	border: .625em solid blue;
 }
 
 .season_footer p{
 	text-align: center;
 	font: 1.5625em "Carrois Gothic SC";
 	margin: 0;
-	padding: 5px 0 10px;
+	padding: 0.55555555% 0 0;
 }
 /*--------MVV--------*/
 
@@ -194,25 +183,25 @@ h1{
 }
 #mvv h2, #join h2{
 	text-align: center;
-	font-size: 1.5625;
+	font-size: 1.5625em;
 	font-weight: normal;
 }
 
 .mission{
 	display: block;
-	width: 300px;
+	width: 33.33333333%;
 	float:left;
 }
 
 .values{
 	display: block;
-	width: 300px;
+	width: 33.33333333%;
 	float:left;
 }
 
 .vision{
 	display: block;
-	width: 300px;
+	width: 33.33333333%;
 	float:left;
 }
 
@@ -229,19 +218,19 @@ aside{
 	-moz-column-count: 3;
 	column-count: 3;
 	overflow: hidden;
-	margin: 0 10px;
-	border-bottom: 1px solid black;
+	margin: 0 1.1111111111%;
+	border-bottom: 0.0625em solid black;
 }
 
-.join_tagline{
-	margin: 10px 15px;
-	width: 150px;
+/*.join_tagline{
+	margin: 1.11111111% 1.66666666%;
+	width: 16.66666666%;
 	float: left;
-}
+}*/
 
 #audition_dates{
-	width: 150px;
-	margin: 10px 15px;
+	width: 33.33333333%;
+	margin: 1.11111111% 1.66666666%;
 	float: left;
 }
 #audition_dates ul{
@@ -252,25 +241,25 @@ aside{
 	text-shadow: none;
 }
 #contact_form{
-	width: 510px;
-	margin: 10px 15px;
+	width: 61.11111112%;
+	margin: 1.11111111% 1.66666666%;
 	float: left;
 }
 /*------Footer-----*/
 #dgmc_footer{
 	clear: left;
 	background: black;
-	padding: 10px 15px 10px;
 	overflow: hidden;
 }
 #dgmc_footer ul{
 	list-style-type: none;
 	float: left;
 	padding: 0;
+	width: 100%
 }
 #dgmc_footer li{
 	float: left;
-	width: 225px;
+	width: 25%;
 	text-align: center;
 	font-size: 0.9375em;
 	color: white;

@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5{
 }
 #logo{
 	float: left;
+	width: 22.22222222%;
+}
+#logo img{
+	width: 100%;
 }
 
 #dgmc_main_nav{
@@ -85,30 +89,32 @@ h1{
 	overflow: hidden;
 	padding-bottom: 20px;
 }
-.slider img{
-	width: 44.44444444%; */400/900*/
-	border-radius: 10%;
-	float:left;
-	margin: 0 1.66666666%; /*15/900*/
+.slider{
+	width: 42.77777777%;
+	display: block;
+	margin: 1.66666666%;
+	float: left;
 }
-
-#home p{
-	text-align: center;
+.slider img{
+	width: 100%;
+	border-radius: .625em;
 }
 .main_para{
-	width: 50%; /*450/900*/
+	width: 50.55555555%;
+	margin: 1.66666666%;
 	float:left;
+	text-align: center;
 }
 #home strong{
-	width: 50%; /*450/900*/
-	text-align:center;
 	font-size: 1.5625em;
 }
 .join_button{
+	width: 52%;
+	margin: 1.66666666% auto;
 }
-.button {
-	margin: 20px;  
-	border-top: 1px solid #96d1f8;
+.join_button .button {
+	margin: 1.66666666% auto;  
+	border-top: 0.0625em solid #96d1f8;
 	background: #65a9d7;
 	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
 	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
@@ -116,13 +122,13 @@ h1{
 	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
 	background: -o-linear-gradient(top, #3e779d, #65a9d7);
 	padding: 10px 20px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-	box-shadow: rgba(0,0,0,1) 0 1px 0;
-	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	-webkit-border-radius: .9375em;
+	-moz-border-radius: .9375em;
+	border-radius: .9375em;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 .0625em 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 .0625em 0;
+	box-shadow: rgba(0,0,0,1) 0 .0625em 0;
+	text-shadow: rgba(0,0,0,.4) 0 .0625em 0;
 	color: white;
 	font-size: 1.5625em;
 	font-family: "Carrois Gothic SC", cursive;
@@ -157,6 +163,10 @@ h1{
 #season li{
 	float: left;
 	margin: 1.11111111%;
+	width: 47.5342465%;
+}
+#season img{
+	width: 100%	
 }
 
 #season li a{ 
@@ -189,23 +199,23 @@ h1{
 
 .mission{
 	display: block;
-	width: 33.33333333%;
+	width: 31.11111111%;
 	float:left;
+	margin: 0 1.66666666%
 }
 
 .values{
 	display: block;
-	width: 33.33333333%;
+	width: 31.11111111%;
 	float:left;
 }
 
 .vision{
 	display: block;
-	width: 33.33333333%;
+	width: 31.11111111%;
 	float:left;
+	margin: 0 1.66666666%
 }
-
-
 /*--------Join Us--------*/
 
 #join{

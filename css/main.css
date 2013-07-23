@@ -469,6 +469,9 @@ aside{
 			width: 100%;
 		float: none;
 	}
+	aside{
+	display:none;
+	}
 }
 
 

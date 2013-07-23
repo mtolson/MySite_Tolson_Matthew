@@ -381,51 +381,45 @@ aside{
 	}
 }
 @media screen and (max-width: 479px) {
-	h1{
-		background: yellow;
+	#logo{
+		width: 100%;
+		text-align: center;
 	}
-		/*-----Header CSS--------*/
+	#logo img{
+		width: 35%;
+		vertical-align: center;
+	}
 
-#logo{
-	width: 100%;
-	text-align: center;
-}
-#logo img{
-	width: 35%;
-	vertical-align: center;
-}
+	#dgmc_main_nav{
+		width: 100%;
+		padding: 0;
+	}
+	#dgmc_main_nav ul{
+		margin: 0;
+	}
 
-#dgmc_main_nav{
-	width: 100%;
-	padding: 0;
-}
-#dgmc_main_nav ul{
-	margin: 0;
-}
-
-#dgmc_main_nav a{
-	height: 60px;
-}
-.slider{
-	width: 100%;
-	display: block;
-	margin: 1.66666666%;
-	text-align: center;
-}
-.slider img{
-	width: 75%;
-	border-radius: .625em;
-	vertical-align: middle;
-}
-.main_para{
-	width: 100%;
-	margin: 1.66666666%;
-	text-align: center;
-}
-.join_button{
-	float: none;
-}
-
+	#dgmc_main_nav a{
+		height: 60px;
+	}
+	.slider{
+		width: 100%;
+		display: block;
+		margin: 1.66666666%;
+		text-align: center;
+	}
+	.slider img{
+		width: 75%;
+		border-radius: .625em;
+		vertical-align: middle;
+	}
+	.main_para{
+		width: 100%;
+		margin: 1.66666666%;
+		text-align: center;
+	}
+	.join_button{
+		float: none;
+	}
 	h1{
 		text-shadow: .1em .1em .2em black;
 		text-align: center;
@@ -458,25 +452,23 @@ aside{
 		margin: 0 1.66666666% 1.66666666%;
 		border-bottom: .0625em solid black;
 		padding-bottom: 1.66666666%;
-		
 	}
-#season li{
-	float: none;
-	margin: 1.11111111%;
-	width: 100%;
-}
-#season ul{
-	border: none;
-}
-#audition_dates{
-	width: 100%;
-	float: none;
-}
-#contact_form:{
+	#season li{
+		float: none;
+		margin: 1.11111111%;
 		width: 100%;
-	float: none;
-}
-
+	}
+	#season ul{
+		border: none;
+	}
+	#audition_dates{
+		width: 100%;
+		float: none;
+	}
+	#contact_form:{
+			width: 100%;
+		float: none;
+	}
 }
 
 

@@ -289,6 +289,7 @@ aside{
 	}
 	h2{
 		font-size: 1.25em;
+		color:blue;
 	}
 	aside{
 		-moz-column-count: 2;
@@ -353,6 +354,7 @@ aside{
 	}
 	h2{
 		font-size: 1.25em;
+		color: green;
 	}
 	aside{
 		-moz-column-count: 2;

@@ -460,6 +460,11 @@ aside{
 		padding-bottom: 1.66666666%;
 		
 	}
+#season li{
+	float: none;
+	margin: 1.11111111%;
+	width: 100%;
+}
 
 }
 

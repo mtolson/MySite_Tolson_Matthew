@@ -465,11 +465,19 @@ aside{
 	margin: 1.11111111%;
 	width: 100%;
 }
-
+#season ul{
+	border: none;
+}
+#audition_dates{
+	width: 100%;
+	float: none;
+}
+#contact_form:{
+		width: 100%;
+	float: none;
 }
 
-
-
+}
 
 
 

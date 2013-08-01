@@ -189,6 +189,28 @@ h1{
 	margin: 0;
 	padding: 0.55555555% 0 0;
 }
+table{
+	border-collapse: collapse;
+}
+.upcoming_dates{
+	width: 80%;
+	margin: 0 auto;
+}
+.upcoming_dates th{
+	color: white;
+	text-shadow: .1em .1em .2em black;
+	font-size: 1.5em;
+}
+
+.upcoming_dates td{
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	padding: 0;
+	border-bottom: 1px solid silver;
+}
+
 /*--------MVV--------*/
 
 #mvv{
@@ -256,7 +278,6 @@ aside{
 	text-shadow: none;
 }
 #contact_form{
-	width: 61.11111112%;
 	margin: 1.11111111% 1.66666666%;
 	float: left;
 }

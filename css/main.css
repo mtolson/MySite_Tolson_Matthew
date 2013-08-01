@@ -311,7 +311,7 @@ aside{
 }
 #logo img{
 	width: 35%;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 #dgmc_main_nav{
@@ -387,7 +387,7 @@ aside{
 	}
 	#logo img{
 		width: 35%;
-		vertical-align: center;
+		vertical-align: middle;
 	}
 
 	#dgmc_main_nav{
